@@ -5,7 +5,7 @@ DHCP (Dynamic Host Configuration Protocol) là giao thức cấu hình máy ch�
 
 Giao thức được định nghĩa trong [RFC 2131](https://tools.ietf.org/html/rfc2131)
 
-<img src="http://i.imgur.com/2oduIpG.png">
+<img src="http://i.imgur.com/RSfFKVh.png">
 
 ## 2. Nguyên tắc hoạt động 
 <img src="http://i.imgur.com/1scgLHe.png">
