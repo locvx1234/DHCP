@@ -31,20 +31,20 @@ Giao thức được định nghĩa trong [RFC 2131](https://tools.ietf.org/html
 
 | Tên trường | Mô tả |
 |------------|-------|
-| Op | *Operation Code* : thông điệp yêu cầu : 1, thông điệp phản hồi : 2 |
-| HType | *Hardware Type* : công nghệ mạng được sử dụng (vd '1'= 10Mb Ethernet) |
-| HLen | *Hardware Address Length* : chiều dài của địa chỉ phần cứng (vd '6'- 10Mb Ethernet |
-| Hops | *Hops* : client đặt bằng 0 |
-| XID | *Transaction Identifier* : một số ngẫu nhiên để liên kết các thông điệp yêu cầu với phản hồi | 
-| Secs | *Senconds* : Số giây trôi qua từ lúc client gửi yêu cầu |
-| Flags | *Flags* : Gồm Broadcast Flag (1 bit) và Reserved (15 bits) |
-| CIAddr | *Client IP Address* : client đặt địa chỉ IP của nó vào trường này nếu nó hợp lệ khi BOUND, RENEWING hoặc REBINDING còn không thì đặt 0 |
-| YIAddr | *Your IP Address* : Địa chỉ server giao cho client |
-| SIAddr | *Server IP Address* : Địa chỉ server mà client nên sử dụng cho các bước tiếp theo |
-| CHAddr | *Client Hardware Address* : Địa chỉ phần cứng của client, sử dụng để truyền thông | 
-| SName | *Server Name* : server gửi `DHCP offer` hoặc `DHCP ack` có thể đắt tên của nó trong trường này |
-| File | *Boot Filename* : client yêu cầu một loại file boot trong `DHCP Discover` |
-| Options | *Options* : một vài thông số cho hoạt động của DHCP | 
+| Op | **Operation Code** : thông điệp yêu cầu : 1, thông điệp phản hồi : 2 |
+| HType | **Hardware Type** : công nghệ mạng được sử dụng (vd '1'= 10Mb Ethernet) |
+| HLen | **Hardware Address Length** : chiều dài của địa chỉ phần cứng (vd '6'- 10Mb Ethernet |
+| Hops | **Hops** : client đặt bằng 0 |
+| XID | **Transaction Identifier** : một số ngẫu nhiên để liên kết các thông điệp yêu cầu với phản hồi | 
+| Secs | **Senconds** : Số giây trôi qua từ lúc client gửi yêu cầu |
+| Flags | **Flags** : Gồm Broadcast Flag (1 bit) và Reserved (15 bits) |
+| CIAddr | **Client IP Address** : client đặt địa chỉ IP của nó vào trường này nếu nó hợp lệ khi BOUND, RENEWING hoặc REBINDING còn không thì đặt 0 |
+| YIAddr | **Your IP Address** : Địa chỉ server giao cho client |
+| SIAddr | **Server IP Address** : Địa chỉ server mà client nên sử dụng cho các bước tiếp theo |
+| CHAddr | **Client Hardware Address** : Địa chỉ phần cứng của client, sử dụng để truyền thông | 
+| SName | **Server Name** : server gửi `DHCP offer` hoặc `DHCP ack` có thể đắt tên của nó trong trường này |
+| File | **Boot Filename** : client yêu cầu một loại file boot trong `DHCP Discover` |
+| Options | **Options** : một vài thông số cho hoạt động của DHCP | 
 
 ## 5. Các thuật ngữ liên quan
 - *DHCP server* : là những máy chủ quản lý việc cấp phát và cấu hình địa chỉ IP
