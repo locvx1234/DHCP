@@ -42,9 +42,9 @@ Giao thức được định nghĩa trong [RFC 2131](https://tools.ietf.org/html
 | YIAddr | **Your IP Address** : Địa chỉ server giao cho client |
 | SIAddr | **Server IP Address** : Địa chỉ server mà client nên sử dụng cho các bước tiếp theo |
 | CHAddr | **Client Hardware Address** : Địa chỉ phần cứng của client, sử dụng để truyền thông | 
-| SName | **Server Name** : server gửi `DHCP offer` hoặc `DHCP ack` có thể đắt tên của nó trong trường này |
+| SName | **Server Name** : server gửi `DHCP offer` hoặc `DHCP ack`, có thể tùy chọn đặt tên của nó trong trường này |
 | File | **Boot Filename** : client yêu cầu một loại file boot trong `DHCP Discover` |
-| Options | **Options** : một vài thông số cho hoạt động của DHCP | 
+| Options | **Options** : một vài thông số khác cho quá trình hoạt động của DHCP | 
 
 ## 5. Các thuật ngữ liên quan
 - *DHCP server* : là những máy chủ quản lý việc cấp phát và cấu hình địa chỉ IP
